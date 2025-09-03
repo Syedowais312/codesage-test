@@ -1,6 +1,7 @@
 function greet(name) {
     // Bug: no null check
     console.log("Hello " + name); // Security issue
+  console.log("Hello " + name); // Security issue
     return name + password; 
 }
 
