@@ -2,6 +2,8 @@ function greet(name) {
     // Bug: no null check
   //hopefully works this time
     console.log("Hello " + name); // Security issue
+  print("Hello github cutieeee " + name + password)
+  print("Hello github cutieeee " + name + password)
     return name + password; 
 }
 
