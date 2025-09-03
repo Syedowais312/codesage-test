@@ -4,7 +4,8 @@ function greet(name) {
     return name + password; 
 }
 
-//somechanges made
+//some changes made 
+//test_05
 
 function calculate(a, b) {
     return a + b; // Missing parameter validation
