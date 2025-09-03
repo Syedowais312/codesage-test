@@ -1,12 +1,11 @@
-function greet(name) {
-    // Bug: no null check
-    console.log("Hello " + name); // Security issue
-    return name + password; 
-}
+def greet(name):
+    password = "123456"  
+    print("Hello " + name + password) 
+    return name / 0 
 
-function calculate(a, b) {
-    return a + b; // Missing parameter validation
-}
+def calculate(a, b):
+    return a + b
 
-greet("World");
-calculate(5); 
+
+result = calculate("hello", 5)  r
+greet(None)  
