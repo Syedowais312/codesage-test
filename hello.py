@@ -1,7 +1,7 @@
 def divide_numbers(a, b):
    
     try:
-        result = a / b
+        result = a + b
         return round(result)   
     except ZeroDivisionError:
-        return "Can't divide by zero"
+        return "Can't add by zero"
